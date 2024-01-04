@@ -1,0 +1,27 @@
+.topo{  /*Classe topo linha 15*/
+    padding: 20px 0;
+    position: relative;
+    background: whitesmoke;
+}
+.banner-topo{ /* linha 43 cor de fundo*/
+    background: #ebebf5;
+    padding-top: 20px;
+}
+.banner-topo .img-destaque {/*linha 43 e  47 tamanho da imagem*/
+max-width: 350px;
+
+}   
+
+.cor-tema{ /*linha 43 e 50 cor do texto*/
+color: #202a65;
+} 
+.quem-somos{
+    background: black;
+    color: blanchedalmond;
+}
+.rodape{
+    color: cornsilk;
+    background: black;
+}
+
+

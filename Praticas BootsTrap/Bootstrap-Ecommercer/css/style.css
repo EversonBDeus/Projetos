@@ -1,0 +1,376 @@
+:root{
+    --cor-fundo:rgb(15, 36, 105);
+    --cor-hover:rgb(243, 167, 167);  /*variaveis para*/
+    --cor-primaria:rgb(255, 255, 255);
+
+    --cor-secundaria:rgb(0, 0, 0, 0.555);
+}
+/*topo do site*/
+.topo {
+    background-color: var(--cor-fundo);
+    padding-top: 10px;
+    padding: 20px;
+}
+
+.dp-menu ul{
+   position: absolute;
+   margin-left: 10px;
+   right: 30%;
+   top: 8%;
+   
+   margin-top: -2.5em;
+    
+ }
+
+.dp-menu ul li a{
+    font-size: 15px;
+         
+ }
+    
+
+
+
+
+.dp-menu ul{
+list-style-type: none;
+padding: 0;
+margin: 30px;
+
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+    transition: background .3s;
+    
+
+}
+
+.dp-menu ul li a:hover{
+   background-color:var(--cor-hover);
+  
+
+}
+
+/*Sub menu*/
+
+.dp-menu ul ul{
+    display: none;
+ 
+    left: 0;
+    z-index: 2;
+
+    
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    opacity: 1;
+  
+    
+}
+
+.dp-menu ul ul {
+   width: 150px;
+    
+}
+
+.dp-menu ul ul li a {
+    display: block;
+     
+ }
+
+
+/*botoes rede social*/
+
+ .sec{
+    margin: 50px auto;
+    width: 1025px;
+    height: 150px;
+
+   
+
+}
+.rede{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-left: 20px;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+}
+
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: 2px 20px 10px 0px rgba(50,50,50,0.45);
+}
+.rede#facebook{
+    background-color: #2372a3;
+}
+.rede#twitter{
+    background-color: #0084b4;
+}
+.rede#instagram{
+    background-color: #3f729b;
+}
+.rede#snap{
+    background-color: #fc0;
+}
+.rede#plus{
+    background-color: #dd4b39;
+}
+.rede#youtube{
+    background-color: #b00;
+}
+.icone{
+    margin: -29px auto;
+    padding: 33px;
+    width: 80px;
+    margin-left: -111%;   
+
+}
+
+/*campo da busca*/
+#txtBuscar{
+    float: left;
+    background-color: transparent;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 226px;
+
+}
+#btnBuscar{
+    float: left;
+    cursor: pointer;
+}
+#divBuscar img{
+    float: left;
+}
+#divBusca{
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    margin-left: 33%;
+    border: solid 5px rgba(253,15,67,0.8);
+    
+    border-radius: 10px;
+    height: 44px;
+    width: -35px;
+
+}
+
+
+/*Segundo menu*/
+
+
+         
+ 
+.menu ul{
+    position: absolute;
+    margin-left: 20px;
+    left: 14%;
+    top: 0;
+    margin-top: -2.5em;
+    z-index: 2;
+  }
+ 
+ .menu ul li a{
+     font-size: 15px;   
+  }
+
+ .menu ul{
+ list-style-type: none;
+ padding: 0;
+ margin: 30px;
+
+ }
+ 
+ .menu ul{
+ background-color: var(--cor-fundo);
+     
+ }
+ 
+ .menu ul li{
+     display: inline;
+     position: relative;
+ }
+ 
+ .menu ul li a{
+     color: var(--cor-primaria);
+     text-decoration: none;
+     display:inline-block;
+     padding: 10px;
+     transition: background .3s;
+     
+ 
+ }
+ 
+ .menu ul li a:hover{
+    background-color:var(--cor-hover);
+   
+ 
+ }
+ 
+ /*Sub menu 2*/
+ 
+ .menu ul ul{
+     display: none;
+   
+     left: 0;
+     background-color:var(--cor-secundaria);
+     
+ }
+ 
+ .menu ul li:hover ul{
+     display: block;
+     opacity: 2;
+   
+     
+ }
+ 
+ .menu ul ul {
+    width: 3150px;
+     
+ }
+ 
+ .menu ul ul li a {
+     display: block;
+      
+  }
+
+
+  /*Botao da natoficacao*/
+  .sec1{
+position: absolute ;
+padding: 15px;
+top: 0;
+right: 0;
+margin-right: 10%;
+
+}
+
+
+
+.rede2{
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+}
+
+.rede2:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: 2px 20px 10px 0px rgba(50,50,50,0.45);
+}
+.rede2#notificacoes{
+    background-color: rgb(253, 15, 67);
+}
+.rede2#carrinho{
+    background-color: rgb(253, 15, 67);
+}
+.icone2{
+    margin: -39px auto;
+    padding: 33px;
+    width: 95px;
+    margin-left: -111%;   
+
+}
+
+/*sec 3 para botao carrinho*/
+
+
+.sec3{
+    position: absolute ;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+    
+    }
+
+.rede3{
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+}
+
+.rede3:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: 2px 20px 10px 0px rgba(50,50,50,0.45);
+}
+.rede3#notificacoes{
+    background-color: rgb(253, 15, 67);
+}
+.rede3#carrinho{
+    background-color:rgb(253, 15, 67);
+}
+.icone3{
+    margin: -39px auto;
+    padding: 33px;
+    width: 95px;
+    margin-left: -111%;   
+
+}
+
+h2{
+    margin:10px; margin-left:10%; 
+    font-size: 25px;
+    color: rgba(88, 83, 83, 0.959);
+}
+
+h2 a{
+    margin:10px; margin-left:2%; 
+    font-size: 15px;
+    list-style-type: none;
+    
+   
+}
+
+#tela-anuncio{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    
+}
+
+#pagina{
+    padding-top: 100%;
+}
+#filtro{
+    margin: 20px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

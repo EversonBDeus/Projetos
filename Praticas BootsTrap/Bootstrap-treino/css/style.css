@@ -1,0 +1,60 @@
+/*===== GOOGLE FONTS =====*/
+
+
+
+/*===== VARIAVEIS CSS =====*/
+:root{
+    /*===== CORES =====*/
+    --first-color:#F2A20C;
+    --with-color:#E9EAEC;
+    --dark-color:#272D40;
+    --dark-color-lighten:#F2F5FF;
+
+    /*===== FONTES E TIPOGRAFIA =====*/
+--h1-font-size:1.5rem;
+--h2-font-size:1.25rem;
+--normal-font-size:1rem;
+--small-font-size:.875rem;
+
+
+}
+
+
+
+/*===== BASE =====*/
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+h1,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*===== CARD =====*/
+.conta{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-color-lighten);
+}
+
+.card{
+    width: 320px;
+    height: 400px;
+    background-color: var(--dark-color);
+}
+/*===== CARD HOVER EFFECTS =====*/

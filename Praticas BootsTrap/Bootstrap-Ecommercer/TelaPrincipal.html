@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <script type="text/javascript" src="js//popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js//bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="topo shadow-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="images/icon.png" alt="Logo">      <!--logo img-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                        <!--Botoes para redesociais-->
+                    <section  id="sec">
+                        <div class="rede" id="facebook">
+                            <img class="icone" src="images/facebook.png">
+                        </div>
+                        <div class="rede" id="twitter">
+                            <img class="icone" src="images/twitter.png">
+                        </div>
+                        <div class="rede" id="instagram">
+                            <img class="icone" src="images/instagram.png">
+                        </div>
+                        <div class="rede" id="snap">
+                            <img class="icone" src="images/snap.png">
+                        </div>
+                        <div class="rede" id="plus">
+                            <img class="icone" src="images/plus.png">
+                        </div>
+                        <div class="rede" id="youtube">
+                            <img class="icone" src="images/youtube.png">
+                        </div>
+                    </section>
+
+    <!--Botao notificaçao-->
+                    <section class="sec1">
+                        <div class="rede2" id="notificacoes">
+                            <img class="icone2" src="images/bell.png">
+                        </div>
+                        <!--Botao carrinho-->
+                    </section>
+                    <section class="sec3">
+                        <div class="rede3" id="carrinho">
+                            <img class="icone3" src="images/carrinho.png">
+                        </div>
+                        
+                    </section>
+
+    <!--Campo de texto buscador-->
+    
+                    <div id="divBusca">
+                        <img src="images/search3.png">
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                        <button id="btnBusca" class="btn btn-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+                     
+                    </div>
+                        <!--Menu principal-->
+                    <nav class="dp-menu">
+                        <ul>
+                            <li><a href="#">Categorias</a>
+                                <ul>
+                                    <li>
+                                        <a id="teste" href="#">Peças</a></li>
+                                    <li><a href="#">Veiculos</a></li>
+                                    <li><a href="#">Tecnologia</a></li>
+                                    <li><a href="#">Casa e móveis</a></li>
+                                    <li><a href="#">Eletrodomesticos</a></li>
+                                    <li><a href="#">Brinquedos</a></li>
+                                    <li><a href="#">Moda</a></li>
+                                    <li><a href="#">Caçados</a></li>
+                                    <li><a href="#">Roupas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Ofertas do dia</a> </li>
+                            <li><a href="#">Historico</a> </li>
+                            <li><a href="#">Supermercado</a> </li>
+                            <li><a href="#">Moda</a> </li>
+                            <li><a href="#">Contato</a> </li>
+                            <li><a href="#">Vender</a> </li>
+                        </ul>
+                       </nav>
+    <!--Segundo menu, para perfil-->
+                       <nav id="seg" class="menu">
+                        <ul>
+                            <li><a href="login.html">Perfil</a>
+                                <ul id="ab">
+                                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; list-style-type: none;">
+                                        <div class="card-header bg-transparent border-success">Conta</div>
+                                        <div class="card-body text-white">
+                                          <h5 class="card-title">Nome Usuario</h5>
+                                      
+                                    <li>
+                                        
+                                        <tr>
+                                            <td><img   src='images/icon.png'/></td>
+                                            <td> Olá usuario </br></td> 
+                                          </tr>
+                                        
+                                    <li><a href="perguntas.html">Perguntas</a></li>
+                                    <li><a href="TelaAnuncios.html">Anuncios</a></li>
+                                    <li><a href="#">Meus dados</a></li>
+                                    <li><a href="venda.html">Vender</a></li>
+                                    
+                                    <li><a href="#"> </a></li>
+                                    <div class="card-footer bg-transparent border-success">Sair</div>
+
+                             
+                                </ul>
+                            </li>
+                            <li><a href="#">Compras</a> ></li>
+                            <li><a href="#">Favorito</a>
+                                <ul>
+                                    <li>
+                                        <a id="teste1" href="#">Peças</a></li>
+                                    <li>
+                                        <button type="button" class="btn btn-outline-primary">Ver mais favoritos</button>
+                                    </li>
+                             
+                                </ul>
+                            </li>
+    
+                        </ul>
+                       </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <!--INICIO--> 
+
+        <div id="teste11" class="teste12">
+                <div class="container mt-3">
+        
+                    <div id="slide" class="carousel slide" data-bs-ride="carousel">
+        <!--BOTÃO DE CONTROLE SLIDE--> 
+                        <ol class="carousel-indicators" >
+                            <li data-bs-target="#slide" data-bs-slide-to="0" class="active" ></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="1" ></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="2" ></li>
+                        </ol>
+        <!----> 
+                        <div class="carousel-inner">
+        <!--CAMPO IMAGEM 1--> 
+                            <div class=" teste  carousel-item active">
+                                <img class="d-nlock w-100" src="images/exe01.PNG" alt="teste">
+      
+                              
+        <!----> 
+                            </div>
+         <!-- CAMPO IMAGEM 2--> 
+                            <div class="carousel-item">
+                                <img class="d-nlock w-100" src="images/ex02.PNG" alt="teste">
+                            </div>
+         <!--CAMPO IMAGEM 3--> 
+                            <div class="carousel-item">
+                                <img class="d-nlock w-100" src="images/ex03.PNG" alt="teste">
+                            </div>
+                        </div>
+        <!--CAMPO BOTAO LATERAL ESQUERDO--> 
+                        <a class="carousel-control-prev" href="#slide" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" ></span>
+                            <span class="visually-hidden" >Anterior</span>
+                        </a>
+        <!--CAMPO BOTAO LATERAL DIREITO--> 
+                        <a class="carousel-control-next" href="#slide" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" ></span>
+                            <span class="visually-hidden" >Próximo</span>
+                        </a>
+        
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--FINAL--> 
+
+          <!--Principais Anúncios--> 
+        <h2 class="mt-5" > Principais Anúncios
+            <a href="url">Veja  todos os anuncios</a>    
+        </h2>
+
+        <div id="filtro-card" class="card border-light mb-5" style="max-width: 18rem; margin: 50px; margin-left: 70%;">
+          <div class="card-header">Filtro</div>
+          <div class="card-body">
+
+            <p class="card-text">
+              <form id="filtro" class="form-inline">
+               
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Ordenar por:</option>
+                  <option value="1">Mais Relevante</option>
+                  <option value="2">Menor preço</option>
+                  <option value="3">Maior preço</option>
+                  
+                  
+                </select>
+
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Selecionar categoria</option>
+                  <option value="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                  <option value="4">s</option>
+                  
+                </select>
+                <div class="btn-group-vertical">
+                  <div class="form-check form-switch form-control-sm">
+                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                    <label for="info" class="form=check-label form-check-sm">Parcelamento sem juros</label><br>
+                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                    <label for="info" class="form=check-label form-check-sm">Frete Gratis</label><br>
+                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                    <label for="info" class="form=check-label form-check-sm">Melhores vendedores</label><br>
+                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                    <label for="info" class="form=check-label form-check-sm">Mais de 10% OFF</label><br>
+                   
+                </div>
+                </div>
+              
+                <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                  <input type="checkbox" class="custom-control-input" id="customControlInline">
+                  <label class="custom-control-label" for="customControlInline">Lembrar preferências</label>
+                </div>
+              
+                <button  type="submit" class="btn btn-primary my-1">Filtrar</button>
+              </form>
+            </p>
+          </div>
+        </div>
+    
+
+        
+       <!--
+
+        <div  id="card-plano2"  class="row row-cols-1 row-cols-md-5 g-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 1</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 2</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 3</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Anuncio 4</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a href="url">Ver mais...</a></small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Anuncio 5</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a href="url">Ver mais...</a></small>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+            </div>
+        </div>    
+        </section>
+
+
+
+
+
+
+         <h2 class="mt-5">  Outros Anúncios
+            <a href="url">Veja  todos os anuncios</a>    
+        </h2>
+      
+
+        <div id="card-plano2" class="row row-cols-1 row-cols-md-5 g-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 1</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 2</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuncio 3</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="url">Ver mais...</a></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Anuncio 4</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a href="url">Ver mais...</a></small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Anuncio 5</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a href="url">Ver mais...</a></small>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+            </div>
+        </div>    
+        </section>
+
+--> 
+<nav id="pagina" aria-label="Navegação de página exemplo">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Próximo</a>
+    </li>
+  </ul>
+</nav>
+
+
+        <footer class="rodape" id="contato"  >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>Endereço</h4>
+                        <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>Contato</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>Categoria</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-3 mt-5 mb-5">
+                        <h4>Empresa</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+             
+
+            
+       
+    
+    
+</body>
+</html>

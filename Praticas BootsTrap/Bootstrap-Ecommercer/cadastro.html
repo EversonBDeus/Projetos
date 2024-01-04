@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type="text/javascript" src="js//popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="css/estilocss.css">
+    
+<script type="text/javascript" src="js//bootstrap.min.js"></script>
+</head>
+<body id="fundo">
+    <div class="container mt-5 mb-5">
+        <div class="row">
+<!--Tela de login-->
+        <div class="col-12 col-sm-4">
+           <div class="card" id="telaLogin">
+        <!--   <img src="images/item-venda.PNG" class="card-img-top" alt="cards">card1--> 
+           <div class="card-body">
+            <div class="container mt-1 mb-1">
+               <form action="">
+                   <div class="form-group mt-1 mb-1">
+<!-- login-->                       
+                       <label id="label" class=" form form-label form-control-lg" for="">IDENTIFIQUE-SE</label>
+                       <input type="email" class="form form-control form-control-lg" id="campo" aria-describedby="emailHelp" placeholder="Informe seu email">
+                   </div>
+<!-- senha-->
+                   <div class="form-group mt-2 mb-2">
+                       <label id="label" class=" form form-label form-control-lg" for="">Senha</label>
+                       <input type="password" class=" form form-control form-control-lg " id="campo" placeholder="Insira sua senha">
+                   </div>
+<!-- Botão-->      <button type="submit" class="btn btn-outline-primary btn-lg btn-block">Identifique-se --></button>
+                    <p id="termos">Ao clicar em 'Enviar' você concordará com os Termos e Condições Creators Club e a Política de Privacidade.</p>
+                   
+                    
+                   
+
+                  
+                   
+
+             
+                   
+        
+               </form>
+            </div>
+        </div>
+    </div>
+                                    
+                                 
+                  
+
+<div class="fundo">
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+<!--Tela de Cadastro-->
+        <div class="col-12 col-sm-4">
+           <div class="card" id="telaCadastro">
+       
+           <div class="card-body">
+            <div class="container mt-1 mb-1">
+               <form action="">
+                   <div class="form-group mt-1 mb-1">
+                    
+                       <label id="label" class=" form form-label form-control-lg" for="">Criar conta gratis</label>
+                       <p id="termos">Novos usuarios, ou</p>
+                       <button id="empresarial" type="submit" class="btn btn-outline-primary btn-sm btn-block">Criar conta Empresarial!</button>
+
+                   </div>
+
+                   <div class="form-group mt-2 mb-2">
+                    <label id="label" class=" form form-label" for=""> Nome</label>
+                       <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Digite seu Nome">
+                   </div>
+
+                   
+
+                <div class="form-group mt-2 mb-2">
+                    <label id="label" class=" form form-label" for="">Usuário</label>
+                    <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Nome de usuário">
+                </div>
+
+                <div class="form-group mt-2 mb-2">
+                    <label id="label" class=" form form-label" for="">Senha</label>
+                    <input type="password" class=" form form-control form-control-lg " id="campo" placeholder="Sua senha">
+                </div>
+                <div class="form-group mt-2 mb-2">
+                    <label id="label" class=" form form-label" for="">Email</label>
+                    <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Digite seu E-mail">
+                </div>
+                <label id="label" class=" form form-label" for="">Você está no brasil?</label>
+
+
+
+                <div class="check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Sim
+                    </label> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Não
+                    </label>
+                  </div>
+                  
+               
+                
+
+                <div class="row mt-3  mb-3">
+                    <div class="col-6">
+                       <select class=" form form-select form-select-lg "   name="categoria1" id="categoria1">
+                           <option value="" selected>Selecione o seu Estado</option>
+                            <option value="Casa e jardim"></option>
+                            <option value="Ferramentas"></option>
+                            <option value="Móveis"></option>
+                            <option value="Jardim"></option>
+                            <option value="Aparelhos"></option>
+                            <optgroup aria-valuemax="teste" ></optgroup>
+                            <option value="Casa e jardim"></option>
+                            <option value="Ferramentas"></option>
+                            <option value="Móveis"></option>
+                            <option value="Jardim">/option>
+                            <option value="Aparelhos"></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mt-2 mb-2">
+                        <label id="label" class=" form form-label" for="">Endereço</label>
+                        <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Digite o Cep">
+                    </div>
+                    <div class="form-group mt-2 mb-2">
+                        <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Informe a rua">
+                        <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="Informe o Bairro">
+                    
+                    </div>
+                   
+                    <form class="telefone" novalidate>
+                        <div class="form-row">
+                    <div class="form-group col-md-3  mb-2">
+                        <label id="label" class=" form form-label" for="">Telefone</label>
+                        <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="DDD">
+                    </div>
+                    <div class="form-group col-md-8 mb-2">
+                       
+                        <input type="text" class=" form form-control form-control-lg " id="campo" placeholder="numero">
+                    </div>
+                </div>
+                <div class="form-group mt-2 mb-2">
+                    <label id="label" class=" form form-label" for="">Plano desejavél </label>
+                    <!---Cards dos planos com check box-->>
+                    <div id="card-plano" class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-danger"> Plano Profissional</div>
+                        <div class="card-body text-danger">
+                          <h5 class="card-title">Maior destaque</h5>
+                          <p class="card-text">Maior tráfego em seus anúncios e maior quantidade de postagem dos produtos.</p>
+                        </div>
+                        <div id="plano-card-p" class="card-footer bg-transparent border-danger">
+                            <div class="check form-check-">
+                                <input class="form-check-input" type="radio" name="flexRadioCardDefault" id="flexRadioCardDefault1">
+                                <label class="form-check-label" for="flexRadioCardDefault1">
+                                  Adquirir
+                                </label> 
+                                
+                              </div>
+                        </div>
+                      </div>
+
+                      <div id="card-plano" class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-primary"> Plano Gratuito</div>
+                        <div class="card-body text-primary">
+                          <h5 class="card-title">Destaque Padrão</h5>
+                          <p class="card-text">•	Ao selecionar um plano gratuito não deverá solicitar informações de pagamento, para demais planos deve solicitar informações de pagamento.</p>
+                        </div>
+                        <div id="plano-card-g" class="card-footer bg-transparent border-primary">
+                            <div class="check form-check-">
+                                <input class="form-check-input" type="radio" name="flexRadioCardDefault" id="flexRadioCardDefault1">
+                                <label class="form-check-label" for="flexRadioCardDefault1">
+                                  Adquirir
+                                </label> 
+                                
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                </form>
+<!-- Botão-->      <button id="indentifique" type="submit" class="btn btn-outline-success btn-lg btn-block">--Cadastrar--</button>
+                    <p id="termos">Ao clicar em 'Enviar' você concordará com os Termos e Condições Creators Club e a Política de Privacidade.</p>
+                   
+                    
+           
+                  
+                   
+
+             
+                   
+        
+               </form>
+            </div>
+        </div>
+    </div>
+                                    
+</div>                       
+                  
+</body>
+</html>

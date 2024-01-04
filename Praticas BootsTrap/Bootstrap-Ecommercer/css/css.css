@@ -1,0 +1,48 @@
+#telaLogin{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(151, 148, 148);
+    opacity: 0.8;
+}
+
+#telaCadastro{
+    width: 400px;
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    transform: translate(-126%, -51%);
+    box-shadow: 1px 5px 30px rgb(151, 148, 148);
+    opacity: 0.8;;
+}
+#fundo{
+    background-color: rgb(212, 241, 245, 0.938);
+    background-image: url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#senha{
+    font-size: 15;
+    color: rgb(194, 7, 7);
+
+}
+#cadastrar{
+    font-size: 15;
+    color: rgb(194, 7, 7);
+   
+}
+
+#label{
+    font-family:Comic Sans MS, Comic Sans, cursive ;
+    font-size: 25px;
+    border-radius: 10px;
+   
+    color: rgb(0, 0, 0, 0.959);
+}
+#campo{
+    box-shadow: 1px 1px 08px rgb(150, 173, 252);
+}
+

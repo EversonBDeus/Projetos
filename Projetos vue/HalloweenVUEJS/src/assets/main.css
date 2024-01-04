@@ -1,0 +1,29 @@
+@import './base.css';
+
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+    :root {
+      --biggest-font-size: 9rem;
+      --big-font-size: 3.5rem;
+      --h2-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+    }
+  }
+  
+  
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  .container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+  }
+  
+  .main {
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  

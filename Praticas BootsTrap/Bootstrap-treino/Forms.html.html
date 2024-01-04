@@ -1,0 +1,283 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Bootstrap 5 FORMS</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js//bootstrap.min.js"></script>
+</head>
+<body>
+<section>
+    <div  class="container ">
+<div class="row justify-content-center mt-3">
+    <div class="col-6">
+        <form class="needs-validation" name="formulario-teste" method="POST" action="" >
+
+            <!--CAMPO DE TEXTO VALOR--> 
+            <div class="row mt-3">
+                <label class="form-label col-4">Preço do Produto:</label>
+                <div class="input-group">
+                 <span class="input-group-text" >R$</span>
+                    
+                    <input class="form-control" type="text" name="PP" placeholder="Valor">
+                </div>
+            </div>
+
+<!--CAMPO DE TEXTO link--> 
+            <div class="row mt-3">
+                <label class="form-label col-4">Link Personalizado:</label>
+                <div class="input-group">
+                 <span class="input-group-text" >http//exemplo.com/usuario/</span>
+                    
+                    <input class="form-control" type="text" name="link" placeholder="User">
+                </div>
+            </div>
+<!--CAMPO DE TEXTO NOME-->            
+            <div class="row mt-3">
+                <label class="form-label col-4">Nome de Usuario:</label>
+                <div class="input-group"> <span class="input-group-text" >@</span>
+                    
+                    <input required class="form-control" type="text" name="nome" placeholder="User">
+<!--CAMPO DE VALIDAÇÃO DOS DADOS--> 
+                    <div class="valid-feedback">
+                        Correto!
+                    </div>
+                    <div class="invalid-feedback">
+                        Preencha o nome de usuario completo!
+                    </div>
+<!----------------------------> 
+                </div>
+            </div>
+            <div class="row mt-3">
+                <label class="form-label col-4">Nome:</label>
+                <div class="col-8">
+                    <input class="form-control" type="text" name="nome1" placeholder="Digite o nome completo">
+                </div>
+            </div>
+            <!--Campo RADIO BOX-->
+<div class="row mt-3">
+    <label class="form-label col-4">Gênero:</label>
+    <div class="col-8">
+        <div class="form-check" >
+            <input id="mas" class="forme-check-input" type="radio" name="genero">
+            <label for="mas" class="form-check-label">Masculino </label>
+            <input id="fem" class="forme-check-input" type="radio" name="genero">
+            <label for="fem" class="form-check-label">Feminino </label>
+    
+        </div>
+        
+     
+    </div>
+</div>
+<!--CAMPO DE TEXTO EMAIL -->
+            <div class="row mt-3">
+                <label class="form-label col-4">E-mail:</label>
+                <div class="col-8">
+                    <input required class="form-control" type="text" name="email" placeholder="exemplo@hotmail.com">
+
+                    <div class="valid-feedback" >
+                        Certo
+                    </div>
+                    <div class="invalid-feedback" >
+                        Preencha um email valido
+                    </div>
+                </div>
+            </div>
+<!--BOTAO PARA ENVIAR ARQUIVOS-->
+            <div class="row mt-3">
+                <label class="form-label col-4">Enviar Documentos</label>
+                <div class="col-8">
+                    <input class="form-control" type="file" name="file">
+                </div>
+            </div>
+<!--BOTÃO PARA CORES-->
+            <div class="row mt-3">
+                <label class="form-label form-label-sm col-4">Selecione a cor:</label>
+                <div class="col-8">
+                    <input class="form-control form-control-color" type="color" name="cor">
+                </div>
+            </div>
+<!--Lista de cursos com sugestão-->
+            <div class="row mt-3">
+                <label class="form-label col-4">Encontre seu curso</label>
+                <div class="col-8">
+                    <input list="listaCurso" class="form-control"  name="cursos" placeholder="Escreva o nome do curso">
+                    <datalist id="listaCurso">
+                        <option value="Analise de Sistema"></option>
+                        <option value="Direito"></option>
+                        <option value="Arquitetura"></option>
+                        <option value="Segurança da Informação"></option>
+                        <option value="Nutrição"></option>
+                        <option value="Enfermagem"></option>
+                        <option value="Medicina"></option>
+                        <option value="Literatura"></option>
+                        <option value="Engenharia de Software"></option>
+                        <option value="Engenharia "></option>
+                        <option value="Letras"></option>
+                        <option value="Banco de Dados"></option>
+                        <option value="Psicologia"></option>
+                    </datalist>
+                </div>
+            </div>
+ <!--Campo Select-->
+            <div class="row mt-3">
+                <label class="form-label col-4">Selecione a Instituição</label>
+                <div class="col-8">
+                   <select class="form-select form-select-sm "   name="" id="">
+                       <option value="" selected>Selecione</option>
+                        <option value="Universidade Catolica Dom Bosco">Universidade Catolica Dom Bosco</option>
+                        <option value="Universidade">Universidade Federal MS</option>
+                        <option value="Estácio de Sá">Faculdade Estácio de Sá</option>
+                        <option value="Unigran"> Faculdade Unigran</option>
+                     
+                    </select>
+                </div>
+            </div>
+            
+ <!--Campo Check BOX-->
+            <div class="row mt-3">
+                <label class="form-label col-4 ">Termos e Condições</label>
+                <div class="col-8">
+                    <div class="form-check" >
+                        <input  checked id="promo" class="forme-check-input" type="checkbox" name="not">
+                        <label for="promo" class="form-check-label">Desejo receber notificações </label>
+                
+                    </div>
+                    <div class="form-check" >
+                        <input id="promo2" class="forme-check-input" type="checkbox" name="not2">
+                        <label for="promo2" class="form-check-label">Li e concordo com os termos </label>
+                
+                    </div>
+                 
+                </div>
+            </div>
+<!--CAMPO BOTAO LIGA E DESLIGAL -->
+<div class="row mt-3">
+    <label class="form-label form-switch col-4">Gostaria de Receber nossas Indicações:</label>
+    <div class="col-8">
+        <div class="form-check form-switch" >
+
+            <input  checked id="news" class="forme-check-input" type="checkbox" name="not">
+            <label for="news" class="form-check-label">Desejo receber</label>
+
+        </div>
+    </div>
+ </div>
+
+ <!--CAMPO FILTRO -->
+ <div class="row mt-3">
+    <label class="form-label form-switch col-12">Faixa de Preço</label>
+    <div class="col-12">
+        <input class="form-range" min="1" max="10" step="0.5" type="range" name="precos">
+        <label class="col-8 form-label-sm" >0</label>    
+ 
+        
+    </div>
+ </div>
+ 
+            <!--CAMPO DO BOTAO ENVIAR--> 
+            <button class="btn btn-primary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-secondary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-success"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-danger"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-info"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-dark"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-link"  onclick="validador()" type="submit" class="btn">Enviar</button>
+
+            <button class="btn btn-outline-primary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-secondary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-success"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-danger"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-info"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-dark"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-outline-link"  onclick="validador()" type="submit" class="btn">Enviar</button>
+
+            <button class="btn btn-lg btn-primary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-lg btn-outline-secondary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-sm btn-success"  onclick="validador()" type="submit" class="btn">Enviar</button>
+            <button class="btn btn-sm btn-outline-danger"  onclick="validador()" type="submit" class="btn">Enviar</button>
+
+        
+            
+</form>
+    </div>
+
+</div>
+
+
+
+        
+   <!--   
+<form>
+    <div class="col-3">
+    <div class="row">
+        <label class="form-label col-4">Seu nome</label>
+        <div class="col-8">
+        <input value="Everson" disabled class="form-control-plaintext type="text" name="nome">
+    </div>
+    </div>
+    <div>
+        <label for="input-email" class="form-label">Seu E-mail</label>
+        <input id="input-email" class="form-control form-control-lg" value="teste@email" type="email" name="email">
+    </div>
+    <div>
+   
+        <input id="input-email" class="form-control form-control-sm " value="teste@email" type="email" name="email">
+    </div>
+    <div>
+   
+        <input id="input-email" class="form-control form-control-sm " value="teste@email" type="email" name="email">
+    </div>
+    <div>
+        <label for="input-msg" class="form-label" for="">Sua Mensagem</label>
+       <textarea id="input-msg"  class="form-control"  name="msg">
+
+       </textarea>
+    </div>
+</div>
+</form>
+
+<form>
+    <div class="row">
+    <div class="col">
+       
+        <input class="form-control" placeholder="Seu Nome" type="text" name="nome">
+    </div>
+    <div class="col">
+
+        <input class="form-control" placeholder="Seu E-mail" type="email" name="email">
+    </div>
+</div>
+</form>
+-->
+    </div>
+
+</section>
+ <!--CAMPO JAVASCRIPT-->
+ <script type="text/javascript">
+ var campoAtivo = document.activeElement;
+ campoAtivo.addEventListener("focusin", verificarCampo);
+
+ function verificarCampo(){
+     var valida = document.activeElement.parentNode;
+     valida.classList.add('was-validated');
+ }
+
+ function validador(){
+     var nome = document.getElementsByName("nome")[0];
+     var email = document.getElementsByName("email")[0];
+
+     if (nome.value.length == ""){
+         nome.parentNode.classList.add('was-validated');
+         return false;
+     }
+     
+     if (email.value.length == ""){
+         email.parentNode.classList.add('was-validated');
+         return false;
+    }
+ };
+  </script>
+</body>
+</html>

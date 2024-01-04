@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarktPlace</title>
+    <script type="text/javascript" src="js//popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    
+<script type="text/javascript" src="js//bootstrap.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+<!--INICIO--> <a  data-bs-toggle="modal" data-bs-target="#meuModal" href="url">Ver mais...</a>
+            
+            <div id="meuModal" class="modal">
+                <div class="modal-dialog modal-lg modal-dialog-centered" > <!--Modal centered centraliza--> <!--Para mudar tamanho utilizar (modal-xl,sm,lg)-->
+                    <div class="modal-content">
+ <!--HEADER-->          <div class="modal-header">
+                            <h5>Publicar</h5>
+                            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>  <!--Botão para fechar-->
+                        </div>
+  <!--BODY-->           <div class="modal-body">
+                        <P>
+                        <section id="cursos">
+                          <div class="container mt-5 mb-5">
+                             <div class="row">
+    <!--card1-->
+                          <div class="col-12 col-sm-4">
+                          <div class="card">
+                         <img src="images/item-venda.PNG" class="card-img-top" alt="cards">
+                         <div class="card-body">
+                           <h5 class="card-title">Iten para venda</h5>
+                           <p class="card-text">Crie um único anúncio para um ou mais itens à venda.</p>
+                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal1" >Anunciar</button>
+                        </div>
+                             </div>
+                                 </div>
+    <!---->
+            <div class="col-12 col-sm-4">
+                  <div class="card">
+                  <img src="images/item-veiculo.PNG" class="card-img-top" alt="cards">
+                  <div class="card-body">
+                  <h5 class="card-title">Veículo para venda</h5>
+                  <p class="card-text">Venda um carro, caminhão ou outro tipo de veículo.</p>
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal1" >Anunciar</button>
+                </div>
+                      </div>
+                            </div>
+    
+              <div class="col-12 col-sm-4">
+                 <div class="card">
+                 <img src="images/item-casa.PNG" class="card-img-top" alt="cards">
+                 <div class="card-body">
+                  <h5 class="card-title">Imóvel para venda </h5>
+                  <p class="card-text">Anuncie um imóvel para venda  ou locação.</p>
+                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#meuModal1" >Anunciar</button>
+                  </div>
+                         </div>
+                                </div>
+                                     </div>
+                                         </div>    
+                                             </section>
+                  
+                                                     <div class="container">
+
+                                                        <div id="meuModal1" class="modal">
+                                                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                                                <div class="modal-content">
+                                            <!--Segundo Header-->  <div class="modal-header">
+                                                                        <h5>Publicar seu Anúncio</h5>
+                                                                        <button type="button" data-bs-dismiss="modal" class="btn-close"></button>  <!--Botão para fechar-->
+                                                                    </div>
+                                               <!--Segundo Body-->  <div class="modal-body">
+                                                                        <p>
+                                                                            <div class="row mt-3 mb-3">
+                                                                                <div class="col-6">
+                                                             <!--Campo Titulo-->   <input class="form-control form-control-lg" type="text" name="titulo" id="titulo" placeholder="Titulo">
+
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row mt-3 mb-3">
+                                                                                <div class="col-6">
+                                                            <!--Campo Preço-->      <input class="form-control form-control-lg"  type="text" name="preco" id="preco" placeholder="Preço">
+                                                                                </div>
+                                                                            </div>
+                                                                                 <!--Campo select para Categorias--> 
+                                                                            <div class="row mt-3  mb-3">
+                                                                                <div class="col-6">
+                                                                                   <select class=" form form-select form-select-lg "   name="categoria1" id="categoria1">
+                                                                                       <option value="" selected>Categoria</option>
+                                                                                        <option value="Casa e jardim">Casa e Jardim</option>
+                                                                                        <option value="Ferramentas">Ferramentas</option>
+                                                                                        <option value="Móveis">Móveis</option>
+                                                                                        <option value="Jardim">Jardim</option>
+                                                                                        <option value="Aparelhos">Aparelhos</option>
+                                                                                        <optgroup aria-valuemax="teste" >Casa jardim</optgroup>
+                                                                                        <option value="Casa e jardim">Casa e Jardim</option>
+                                                                                        <option value="Ferramentas">Ferramentas</option>
+                                                                                        <option value="Móveis">Móveis</option>
+                                                                                        <option value="Jardim">Jardim</option>
+                                                                                        <option value="Aparelhos">Aparelhos</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                     <!--FIM Categoria-->
+
+                                                             <!--Condição-->         <div class="row mt-3 mb-3">
+                                                                                         <div class="col-6">
+                                                                                            <select class="form-select form-select-lg "   name="cate" id="cate">
+                                                                                                <option value="eree" selected>Condição</option>
+                                                                                                 <option value="Casa e jardim">Novo</option>
+                                                                                                 <option value="Ferramentas">Usado</option>
+                                                                                                 </select>
+                                                                                             </div>
+                                                                                         </div>
+                                                                                         <div class="row mt-3  mb-3">
+                                                                                            <!--Estoque-->
+                                                                                            <div class="col-6">
+                                                                                               <select class="form-select form-select-lg "   name="categoria1" id="categoria1">
+                                                                                                   <option value="" selected>Anunciar como estoque</option>
+                                                                                                    <option value="Casa e jardim">Com estoque</option>
+                                                                                                    <option value="Ferramentas">Item único</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <!--Fim estoque-->
+                                                                                        
+                                                                                     <!--Descrição-->
+                                                                                     <div class="row mt-3 mb-3">
+                                                                                        <div class="col-6">
+                                                                                           <textarea class="form-control form-control-sm" name="msg" id="msg" cols="30" rows="10">Descrição</textarea>
+                                                                                           <font color="#808080" size="2px">Opcional</font>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--Marca-->
+                                                                                    <div class="row mt-3 mb-3">
+                                                                                        <div class="col-6 ">
+                                                                                            <input class="form-control form-control-lg"  type="text" name="titulo" id="Titulo" placeholder="Marca">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                     <!--Material-->
+                                                                                    <div class="row mt-3 mb-3">
+                                                                                        <div class="col-6">
+                                                                                            <input class="form-control form-control-lg"  type="text" name="titulo" id="Titulo" placeholder="Material">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </select>
+                                                                                <div class="form-check form-switch form-control-lg">
+                                                                                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                                                                                    <label for="info" class="form=check-label">Turbinar classificado após a publicação</label><br>
+                                                                                    <font  color="#808080" size="2px">Adicione uma etapa para turbinar seu classificado depois  </font><br>
+                                                                                    <font  color="#808080" size="2px"> de publicá-lo. Você conseguirá alcançar mais compradores </font><br>
+                                                                                    <font  color="#808080" size="2px"> potenciais sem o transformar em anúncio.</font>
+                                                                                </div>
+                                                    
+                                                                                <div class="form-check form-switch form-control-lg">
+                                                                                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                                                                                    <label for="info" class="form=check-label">Ocultar dos amigos</label><br>
+                                                                                    <font color="#808080" size="2px"> Este classificado será oculto dos seus amigos do Facebook,
+                                                                                    </font><br>
+                                                                                    <font color="#808080" size="2px">  mas ficará visível para outras pessoas no Facebook.</font>
+                                                                                    
+                                                                                </div>
+                                                                                <font color="#808080" size="2px">  Os itens do Marketplace são públicos e podem ser vistos por qualquer pessoa  </font><br>
+                                                                                    <font color="#808080" size="2px">dentro ou fora do Facebook. Itens como animais, drogas, armas, falsificações</font><br>
+                                                                                    <font color="#808080" size="2px"> e outros itens que violam a propriedade intelectual não são permitidos no Marketplace.</font><br>
+                                                                                        <font color="#808080" size="2px">Consulte nossas Políticas Comerciais.  </font>
+                                                                                        <!--LOGO TIPO carousel clientes-->
+                                                                                        <section class="cliente" id="clientes">
+                                                                                            <div class="container mt-5 mb-5">
+                                                                                                <div class="row text-center">
+                                                                                                  <div class="col-12">
+                                                                                                    <p class="h3">Veja mais alguns Anuncios do vendedor</p>
+                                                                                                    
+                                                                                                </div>
+                                                                                                <div id="slide" class=" carousel carousel-dark carousel slide" data-bs-ride="carousel">
+                                                                                                    <ol class="carousel-indicators" >
+                                                                                                        <li data-bs-target="#slide" data-bs-slide-to="0" class="active" ></li>
+                                                                                                        <li data-bs-target="#slide" data-bs-slide-to="1" ></li>                    
+                                                                                                      </ol>
+                                                                            <!----> 
+                                                                                                       <div class="carousel-inner mt-3">
+                                                                           <!--CAMPO IMAGEM 1--> 
+                                                                                                       <div class="carousel-item active">
+                                                                                                       <div class="row">
+                                                                                                       <div class=" align-self-right col-3 col-sm-3">
+                                                                                                         <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                       </div>
+                                                                                                       <div class="col-3 col-sm-3">
+                                                                                                          <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                       </div>
+                                                                                                       <div class="col-3 col-sm-3">
+                                                                                                         <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                      </div>
+                                                                                                      <div class="col-3 col-sm-3">
+                                                                                                       <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                  </div>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="carousel-item ">
+                                                                                            <div class="row">
+                                                                                                <div class="col-6 col-sm-3">
+                                                                                                    <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                </div>
+                                                                                                <div class="col-6 col-sm-3">
+                                                                                                    <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                </div>
+                                                                                                <div class="col-6 col-sm-3">
+                                                                                                    <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                </div>
+                                                                                                <div class="col-6 col-sm-3">
+                                                                                                    <img class="d-nlock w-100" src="images/icon.png" alt="teste">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    </div>                                                                             
+                                                                                    </div>                                                                                       
+                                                                                 </section>
+                                                                        </p>
+                                                                    </div>
+                                                                     <!--Roda pé--> <div class="modal-footer">
+                                                        <button class="btn btn-outline-primary"  onclick="validador()" type="submit" class="btn">Enviar</button>
+                                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-danger">Fechar</button>  
+                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                     </div>
+                                                 </section>
+                                             </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </P>
+  
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+.perfil{
+    margin: 50px auto;
+    width: 1025px;
+    height: 150px;
+
+   
+
+}
+.rede2{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-left: 20px;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+}
+
+.rede2:hover{
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: 2px 20px 10px 0px rgba(50,50,50,0.45);
+}
+.rede2#notificacoes{
+    background-color: #2372a3;
+}
+.rede2#carrinho{
+    background-color: #0084b4;
+}
+
+.icone2{
+    margin: -29px auto;
+    padding: 33px;
+    width: 80px;
+    margin-left: -111%;   
+
+}
